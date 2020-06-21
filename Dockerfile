@@ -1,3 +1,5 @@
+
+
 FROM node:12-alpine
 
 LABEL maintainer="Florent Uzio <fuzio@ripple.com>"
@@ -24,4 +26,6 @@ EXPOSE 8080 8081
 # run all future commands as this user
 USER appuser 
 
-CMD ["node", "/opt/payid/build/src/index.js"]
+CMD ["node", "/opt/payid/build/src/index.js"]git clone git@github.com:payid-org/payid.git
+
+
